@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "download": "cd ./node_modules/rhyme-plus/data/ && sh fetch.sh"
+  },
   "dependencies": {
     "rhyme-plus": "^0.0.7",
     "tokenize-text": "^1.1.3",
