@@ -1,5 +1,7 @@
 const fs = require('fs');
 const rhyme = require('rhyme-plus');
+const leven = require('leven');
+const syllable = require('syllable');
 const Tokenizer = require('tokenize-text');
 const tokenize = new Tokenizer();
 const {englishUsa, englishUsaNoSwears} = require('word-list-google');
@@ -14,7 +16,7 @@ const _mostCommonWords = commonWordList
 const lyrics = fs.readFileSync('./data/lyrics-with-speaker.txt', 'utf-8');
 
 const whereToStart = 0;
-const wordsToProcess = 1000;
+const wordsToProcess = 100;
 const SEARCH_RADIUS = 100;
 const MIN_REPLACEMENT_CANDIDATE_LENGTH = 4;
 const wordsNotToProcess = commonWordList
@@ -60,7 +62,8 @@ const _isValidReplacement = w => wordsNotToReplaceWith.indexOf(w) === -1;
 
 function doHam(config) {
   let swapsCount = 0;
-  let randomRhymesCount = 0;
+  let randomRhymeCount = 0;
+  let randomLevenCount = 0;
   const result = _wordsIsolatedSanitizedShort.reduce((acc, val, i, arr) => {
     let token = _wordsTokenizedShort[i];
     let nextToken = _wordsTokenizedShort[i + 1] || _wordsTokenizedShort[i];
@@ -85,11 +88,18 @@ function doHam(config) {
         swapsCount++;
       }
 
-      // get randomRhymes
-      const rhymeCandidates = _getRhymes(val);
+      // get random rhyme candidates
+      const rhymeCandidates = _getRhymeCandidates(val);
       if (rhymeCandidates.length > 0) {
-        randomRhymesCount++;
+        randomRhymeCount++;
         wordObj.rhymeCandidates = rhymeCandidates.filter(_isValidReplacement);
+      }
+
+      // get random leven candidates
+      const levenCandidates = _getLevenCandidates(val);
+      if (levenCandidates.length > 0) {
+        randomLevenCount++;
+        wordObj.levenCandidates = levenCandidates.filter(_isValidReplacement);
       }
     }
     acc.push(wordObj);
@@ -104,17 +114,54 @@ function doHam(config) {
 
   fs.writeFileSync('./public/data.json', JSON.stringify(result, null, 2));
   console.log(
-    `Processed ${wordsToProcess}, performed ${swapsCount} swaps, and ${randomRhymesCount} random rhyme replacements`
+    `Processed ${wordsToProcess}, performed ${swapsCount} swaps, and ${randomRhymeCount} random rhyme replacements`
   );
 }
 
-function _getRhymes(word) {
+function _getRhymeCandidates(word) {
   let randomCandidates = r
     .rhyme(word)
     .map(s => s.toLowerCase())
     .filter(_isCommonEnoughWord);
   if (randomCandidates.length > 0) {
-    console.log(`for word "${word}", found candidates "${randomCandidates}"`);
+    console.log(
+      `for word "${word}", found rhyme candidates "${randomCandidates}"`
+    );
   }
   return randomCandidates;
+}
+
+function _getLevenCandidates(word) {
+  // prettier-ignore
+  const COOL_WORDS = [
+    'fart','lumpy','poop','pee','boop','beep','beeper','penis','chicken',
+    'monkey','shit','sex','crap'
+  ];
+  const UNCOOL_WORDS = ['donut', 'donate', 'greatness'];
+  let totalScore = 1000;
+  let candidates = [];
+  _mostCommonWords.forEach(dWord => {
+    // if the dictionary word we're considering is the word we're comparing
+    // against, or if the word is uncool, skip it
+    if (dWord === word || UNCOOL_WORDS.indexOf(dWord) !== -1) {
+      return;
+    }
+    let score = leven(word, dWord);
+    if (COOL_WORDS.indexOf(dWord) !== -1) {
+      score--;
+    }
+    if (score < totalScore) {
+      candidates = [];
+      totalScore = score;
+    }
+    if (score === totalScore) {
+      if (syllable(word) === syllable(dWord) && word.toLowerCase() !== dWord) {
+        candidates.push(dWord);
+      }
+    }
+  });
+  if (candidates.length > 0) {
+    console.log(`for word "${word}", found leven candidates "${candidates}"`);
+  }
+  return totalScore < 3 && candidates.length > 0 ? candidates : [];
 }
