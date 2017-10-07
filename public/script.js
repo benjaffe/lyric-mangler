@@ -64,18 +64,25 @@ function init() {
 }
 
 /* === Utils === */
-
-const _randomValueFromArr = arr => arr[Math.floor(Math.random() * arr.length)];
+const _randomVal = num => Math.floor(Math.random() * num);
+const _isNotPlural = (str1, str2) => str1 !== str2 + 's' && str2 !== str1 + 's';
+const _randomValueFromArr = (origArr, val) => {
+  const arr = origArr.filter(_isNotPlural.bind(null, val));
+  return arr.length > 0 ? arr[_randomVal(arr.length)] : val;
+};
 const _resolveProbability = prob => Math.random() < prob;
 const _wrapInSpan = (val, c) => `<span class="${c}">${val}</span>`;
 const _clone = obj => JSON.parse(JSON.stringify(obj));
 
 const _wordSwapper = w => {
-  if (!w.mutated && swap && w.swapWords && w.swapWords.length > 0) {
-    console.log('swap ' + w.val);
-    w.originalVal = w.val;
-    w.mutated = true;
-    w.val = _wrapInSpan(_randomValueFromArr(w.swapWords), 'swap');
+  if (!w.mutated && swap && w.swapWords) {
+    // console.log('swap ' + w.val);
+    let replacement = _randomValueFromArr(w.swapWords, w.val);
+    if (replacement !== w.val) {
+      w.originalVal = w.val;
+      w.mutated = true;
+      w.val = _wrapInSpan(replacement, 'swap');
+    }
   }
   return w;
 };
@@ -87,10 +94,13 @@ const _rhymeSwapper = w => {
     w.rhymeCandidates.length > 0 &&
     _resolveProbability(rhymeProbability)
   ) {
-    console.log('rhyme ' + w.val);
-    w.originalVal = w.val;
-    w.mutated = true;
-    w.val = _wrapInSpan(_randomValueFromArr(w.rhymeCandidates), 'rhyme');
+    // console.log('rhyme ' + w.val);
+    let replacement = _randomValueFromArr(w.rhymeCandidates, w.val);
+    if (replacement !== w.val) {
+      w.originalVal = w.val;
+      w.mutated = true;
+      w.val = _wrapInSpan(replacement, 'rhyme');
+    }
   }
   return w;
 };
@@ -102,10 +112,13 @@ const _levenSwapper = w => {
     w.levenCandidates.length > 0 &&
     _resolveProbability(levenProbability)
   ) {
-    console.log('leven ' + w.val);
-    w.originalVal = w.val;
-    w.mutated = true;
-    w.val = _wrapInSpan(_randomValueFromArr(w.levenCandidates), 'leven');
+    // console.log('leven ' + w.val);
+    let replacement = _randomValueFromArr(w.levenCandidates, w.val);
+    if (replacement !== w.val) {
+      w.originalVal = w.val;
+      w.mutated = true;
+      w.val = _wrapInSpan(replacement, 'leven');
+    }
   }
   return w;
 };
