@@ -30,7 +30,7 @@ function recalculateLyrics() {
 }
 
 function init() {
-  btnWrapperElem.style.display = 'block';
+  btnWrapperElem.style.visibility = 'visible';
   btnRhymeElem.value = rhymeProbability * 100;
   btnLevenElem.value = levenProbability * 100;
   btnSwapElem.checked = swap;

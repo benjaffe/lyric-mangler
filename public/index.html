@@ -4,18 +4,19 @@
     <meta charset="utf-8">
     <title></title>
     <style>
-      body {padding-top: 40px;white-space: pre-line;font-family: sans-serif;line-height: 1.5;}
-      .buttons {position: fixed; background: #ddd;left: 0; right: 0; top: 0;}
+      body {white-space: pre-line;font-family: sans-serif;line-height: 1.5;}
+      .buttons {display: flex; align-items: stretch; position: fixed; background: #ddd;left: 0; right: 0; top: 0; }
+      .label {display:block; flex-grow: 1;}
       .swap {background: #FCC;}
       .rhyme {background: #9FD;}
       .leven {background: #BF9;}
     </style>
   </head>
   <body>
-    <div class="buttons" id="buttons" style="display:none;">
-      <label for="btnRhyme">Rhyme: <input type="range" id="btnRhyme" name="btnRhyme" value="Rhyme" min="0" max="100"></label>
-      <label for="btnLeven">Leven: <input type="range" id="btnLeven" name="btnLeven" value="Leven" min="0" max="100"></label>
-      <label for="btnSwap">Swap: <input type="checkbox" id="btnSwap" name="btnSwap" value="Swap"></label>
+    <div class="buttons" id="buttons" style="visibility: hidden;">
+      <label class="label rhyme" for="btnRhyme">Rhyme: <input type="range" id="btnRhyme" name="btnRhyme" value="Rhyme" min="0" max="100"></label>
+      <label class="label leven" for="btnLeven">Leven: <input type="range" id="btnLeven" name="btnLeven" value="Leven" min="0" max="100"></label>
+      <label class="label swap" for="btnSwap">Swap: <input type="checkbox" id="btnSwap" name="btnSwap" value="Swap"></label>
       <label for="btnFavorRhymes">Favor Rhymes over Leven: <input type="checkbox" id="btnFavorRhymes" name="btnFavorRhymes" value="FavorRhymes"></label>
     </div>
     <div id="lyricsWrapper">
