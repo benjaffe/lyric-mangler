@@ -5,19 +5,27 @@
     <title></title>
     <style>
       body {white-space: pre-line;font-family: sans-serif;line-height: 1.5;}
-      .buttons {display: flex; align-items: stretch; position: fixed; background: #ddd;left: 0; right: 0; top: 0; }
-      .label {display:block; flex-grow: 1;}
-      .swap {background: #FCC;}
+      .subButtons {display: flex; align-items: stretch;}
+      .buttons {display:flex;flex-direction: column;position: fixed; background: #AAA;left: 0; right: 0; top: 0;}
+      .label {display:block; flex-grow: 1;padding: 5px 5px 2px;}
+      .swap {background: #FDF;}
+      .sfw {background: #CFC;}
       .rhyme {background: #9FD;}
       .leven {background: #BF9;}
+      .btnFavorRhymes {background: #FDD;}
+      .master {background: #DDD;}
     </style>
   </head>
-  <body>
-    <div class="buttons" id="buttons" style="visibility: hidden;">
-      <label class="label rhyme" for="btnRhyme">Rhyme: <input type="range" id="btnRhyme" name="btnRhyme" value="Rhyme" min="0" max="100"></label>
-      <label class="label leven" for="btnLeven">Leven: <input type="range" id="btnLeven" name="btnLeven" value="Leven" min="0" max="100"></label>
-      <label class="label swap" for="btnSwap">Swap: <input type="checkbox" id="btnSwap" name="btnSwap" value="Swap"></label>
-      <label for="btnFavorRhymes">Favor Rhymes over Leven: <input type="checkbox" id="btnFavorRhymes" name="btnFavorRhymes" value="FavorRhymes"></label>
+  <body style="display:block;">
+    <div class="buttons" id="buttons">
+      <div class="subButtons">
+        <label class="label rhyme" for="btnRhyme">Rhyme: <input type="range" id="btnRhyme" name="btnRhyme" value="Rhyme" min="0" max="100"></label>
+        <label class="label leven" for="btnLeven">Leven: <input type="range" id="btnLeven" name="btnLeven" value="Leven" min="0" max="100"></label>
+        <label class="label swap" for="btnSwap">Swap: <input type="checkbox" id="btnSwap" name="btnSwap" value="Swap"></label>
+        <label class="label btnFavorRhymes" for="label btnFavorRhymes">Favor Rhymes over Leven: <input type="checkbox" id="btnFavorRhymes" name="btnFavorRhymes" value="FavorRhymes"></label>
+        <label class="label sfw" for="btnSFW">SFW: <input type="checkbox" id="btnSFW" name="btnSFW" value="SFW"></label>
+      </div>
+      <label class="label master" for="btnMaster">Difficulty: <input type="range" id="btnMaster" name="btnMaster" value="Master" min="0" max="100"></label>
     </div>
     <div id="lyricsWrapper">
 

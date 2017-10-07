@@ -1,16 +1,29 @@
 let rhymeProbability = 0.1;
 let levenProbability = 0.5;
+let masterMultiplier = 1;
 let swap = true;
+let sfw = true;
 let favorRhymes = false;
 
-let words;
-var request = new XMLHttpRequest();
-request.open('GET', './data.json');
-request.responseType = 'json';
-request.send();
-request.onload = function() {
-  words = request.response;
-  init();
+let words, swears;
+let wordRequest = new XMLHttpRequest();
+wordRequest.open('GET', './data.json');
+wordRequest.responseType = 'json';
+wordRequest.send();
+wordRequest.onload = function() {
+  words = wordRequest.response;
+  console.log(`loaded words`);
+
+  let swearsRequest = new XMLHttpRequest();
+  swearsRequest.open('GET', './swears.json');
+  swearsRequest.responseType = 'json';
+  swearsRequest.send();
+  swearsRequest.onload = function() {
+    swears = swearsRequest.response;
+    console.log(`loaded ${swears.length} swears`);
+
+    init();
+  };
 };
 
 const lyricsWrapperElem = document.getElementById('lyricsWrapper');
@@ -19,6 +32,8 @@ const btnRhymeElem = document.getElementById('btnRhyme');
 const btnLevenElem = document.getElementById('btnLeven');
 const btnSwapElem = document.getElementById('btnSwap');
 const btnFavorRhymesElem = document.getElementById('btnFavorRhymes');
+const btnSFWElem = document.getElementById('btnSFW');
+const btnMasterElem = document.getElementById('btnMaster');
 
 function recalculateLyrics() {
   lyricsWrapperElem.innerHTML = _clone(words)
@@ -30,27 +45,37 @@ function recalculateLyrics() {
 }
 
 function init() {
-  btnWrapperElem.style.visibility = 'visible';
+  document.body.style.display = 'block';
   btnRhymeElem.value = rhymeProbability * 100;
   btnLevenElem.value = levenProbability * 100;
+  btnMasterElem.value = masterMultiplier * 100;
   btnSwapElem.checked = swap;
+  btnSFWElem.checked = sfw;
   btnFavorRhymesElem.checked = favorRhymes;
 
   btnRhymeElem.addEventListener('input', function(e) {
-    console.log('btnRhyme: ', rhymeProbability);
     rhymeProbability = e.target.value / 100;
     recalculateLyrics();
   });
 
   btnLevenElem.addEventListener('input', function(e) {
-    console.log('btnLeven: ', levenProbability);
     levenProbability = e.target.value / 100;
     recalculateLyrics();
   });
 
+  btnMasterElem.addEventListener('input', function(e) {
+    masterMultiplier = e.target.value / 100;
+    recalculateLyrics();
+  });
+
   btnSwapElem.addEventListener('click', function(e) {
-    console.log('btnSwap: ', swap);
     swap = e.target.checked;
+    recalculateLyrics();
+  });
+
+  btnSFWElem.addEventListener('click', function(e) {
+    sfw = e.target.checked;
+    btnSFWElem.parentElement.style.background = sfw ? '#CFC' : '#FAA';
     recalculateLyrics();
   });
 
@@ -66,8 +91,11 @@ function init() {
 /* === Utils === */
 const _randomVal = num => Math.floor(Math.random() * num);
 const _isNotPlural = (str1, str2) => str1 !== str2 + 's' && str2 !== str1 + 's';
+const _isAppropriate = w => (sfw ? swears.indexOf(w) === -1 : w);
 const _randomValueFromArr = (origArr, val) => {
-  const arr = origArr.filter(_isNotPlural.bind(null, val));
+  const arr = origArr
+    .filter(_isAppropriate)
+    .filter(_isNotPlural.bind(null, val));
   return arr.length > 0 ? arr[_randomVal(arr.length)] : val;
 };
 const _resolveProbability = prob => Math.random() < prob;
@@ -92,7 +120,7 @@ const _rhymeSwapper = w => {
     !w.mutated &&
     w.rhymeCandidates &&
     w.rhymeCandidates.length > 0 &&
-    _resolveProbability(rhymeProbability)
+    _resolveProbability(rhymeProbability * masterMultiplier)
   ) {
     // console.log('rhyme ' + w.val);
     let replacement = _randomValueFromArr(w.rhymeCandidates, w.val);
@@ -110,7 +138,7 @@ const _levenSwapper = w => {
     !w.mutated &&
     w.levenCandidates &&
     w.levenCandidates.length > 0 &&
-    _resolveProbability(levenProbability)
+    _resolveProbability(levenProbability * masterMultiplier)
   ) {
     // console.log('leven ' + w.val);
     let replacement = _randomValueFromArr(w.levenCandidates, w.val);
