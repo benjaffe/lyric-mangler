@@ -53,7 +53,10 @@ rhyme(_r => {
 const _isTitle = s => _isUpperCase(s);
 
 const _isUpperCase = s =>
-  s === s.toUpperCase() && s.length > 2 && isNaN(Number(s));
+  typeof s === 'string' &&
+  s === s.toUpperCase() &&
+  s.length > 2 &&
+  isNaN(Number(s));
 
 const _isCommonEnoughWord = w => {
   return _mostCommonWords.indexOf(w.toLowerCase()) !== -1;
@@ -76,7 +79,13 @@ function doHam(config) {
       .filter(val => val.length >= MIN_REPLACEMENT_CANDIDATE_LENGTH);
 
     if (_isTitle(val)) {
-      acc.push({originalVal: val, val: `${i === 0 ? '' : '\n\n'}${val}\n`});
+      let followsTitleWord = _isTitle(arr[i - 1]);
+      let precedesTitleWord = _isTitle(arr[i + 1]);
+      let prefix = followsTitleWord || i === 0 ? '' : '\n\n';
+      let suffix = precedesTitleWord ? '' : '\n';
+      let newVal = prefix + val + suffix;
+      acc.push({originalVal: val, val: newVal});
+      acc.push(_getInterstitial(token, nextToken, lyrics));
       return acc;
     }
 
