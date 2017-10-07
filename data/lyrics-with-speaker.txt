@@ -1,3 +1,4 @@
+SONG: ALEXANDER HAMILTON
 BURR
 How does a bastard, orphan, son of a whore and a
 Scotsman, dropped in the middle of a
@@ -30,7 +31,7 @@ HAMILTON
 Alexander Hamilton
 My name is Alexander Hamilton
 And there’s a million things I haven’t done
-But just you wait, just you wait…
+But just you wait, just you wait...
 ELIZA
 When he was ten his father split, full of it, debt-ridden
 Two years later, see Alex and his mother bed-ridden
@@ -60,7 +61,7 @@ In New York you can be a new man
 COMPANY
 Scammin’
 Plannin’
-Oooh…
+Oooh...
 COMPANY
 In New York you can
 Be a new man—
@@ -98,7 +99,7 @@ Alexander Hamilton
 Waiting in the wings for you
 You never learned to take your time!
 Oh, Alexander Hamilton
-Alexander Hamilton…
+Alexander Hamilton...
 America sings for you
 Will they know what you overcame?
 Will they know you rewrote the game?
@@ -124,6 +125,8 @@ BURR
 What’s your name, man?
 COMPANY
 Alexander Hamilton!
+
+SONG: AARON BURR, SIR
 COMPANY
 1776. New York City
 HAMILTON
@@ -137,7 +140,7 @@ I have been looking for you
 BURR
 I’m getting nervous
 HAMILTON
-Sir…
+Sir...
 I heard your name at Princeton. I was seeking an accelerated course of study when I got sort of out of sorts with a buddy of yours. I may have punched him. It’s a blur, sir. He handles the financials?
 BURR
 You punched the bursar
@@ -151,7 +154,7 @@ HAMILTON
 You’re an orphan. Of course! I’m an orphan
 God, I wish there was a war!
 Then we could prove that we’re worth more
-Than anyone bargained for…
+Than anyone bargained for...
 BURR
 Can I buy you a drink?
 HAMILTON
@@ -181,7 +184,7 @@ What time is it?
 LAURENS/LAFAYETTE/MULLIGAN
 Show time!
 BURR
-…like I said…
+...like I said...
 LAURENS
 Show time! Show time! Yo!
 I’m John Laurens in the place to be!
@@ -201,12 +204,12 @@ LAFAYETTE & LAURENS
 Ayyyyy
 MULLIGAN
 Lock up ya daughters and horses, of course
-It’s hard to have intercourse over four sets of corsets…
+It’s hard to have intercourse over four sets of corsets...
 LAFAYETTE
 Wow
 LAURENS
 No more sex, pour me another brew, son!
-Let’s raise a couple more…
+Let’s raise a couple more...
 LAURENS/LAFAYETTE/MULLIGAN
 To the revolution!
 LAURENS
@@ -233,7 +236,18 @@ Ooh
 Who are you?
 MULLIGAN/LAFAYETTE/LAURENS
 Ooh, who is this kid? What’s he gonna do?
-College
+
+SONG: MY SHOT
+TODO: Missing Lyrics Here
+HAMILTON
+I am not throwing away
+My shot
+I am not throwing away
+My shot
+Hey yo, I’m just like my country
+I’m young, scrappy and hungry
+And I’m not throwing away my shot
+I'ma get a scholarship to King's College
 I prob’ly shouldn’t brag, but dag, I amaze and astonish
 The problem is I got a lot of brains but no polish
 I gotta holler just to be heard
@@ -250,7 +264,7 @@ But damn, it’s getting dark, so let me spell out the name
 I am the—
 HAMILTON/LAFAYETTE/MULLIGAN/LAURENS
 A-L-E-X-A-N-D
-E-R—we are—meant to be…
+E-R—we are—meant to be...
 HAMILTON
 A colony that runs independently
 Meanwhile, Britain keeps shittin’ on us endlessly
@@ -319,7 +333,7 @@ Burr, check what we got
 Mister Lafayette, hard rock like Lancelot
 I think your pants look hot
 Laurens, I like you a lot
-Let’s hatch a plot blacker than the kettle callin’ the pot…
+Let’s hatch a plot blacker than the kettle callin’ the pot...
 What are the odds the gods would put us all in one spot
 Poppin’ a squat on conventional wisdom, like it or not
 A bunch of revolutionary manumission abolitionists?
@@ -453,6 +467,8 @@ HAMILTON/LAFAYETTE/MULLIGAN/LAURENS
 Not throwin’ away my—
 COMPANY
 Not throwin’ away my shot!
+
+SONG: THE STORY OF TONIGHT
 HAMILTON
 I may not live to see our glory!
 LAFAYETTE/MULLIGAN/LAURENS
@@ -462,9 +478,9 @@ But I will gladly join the fight!
 LAFAYETTE/MULLIGAN/LAURENS
 But I will gladly join the fight!
 HAMILTON
-And when our children tell our story…
+And when our children tell our story...
 LAFAYETTE/MULLIGAN/LAURENS
-And when our children tell our story…
+And when our children tell our story...
 HAMILTON
 They’ll tell the story of tonight
 MULLIGAN
@@ -511,6 +527,8 @@ Raise a glass to freedom
 They’ll tell the story of—
 FULL ENSEMBLE
 Tonight
+
+SONG: THE SCHUYLER SISTERS
 BURR
 There’s nothing rich folks love more
 Than going downtown and slummin’ it with the poor
@@ -570,7 +588,7 @@ New ideas in the air
 ANGELICA AND MALE ENSEMBLE
 Look around, look around—
 ELIZA
-Angelica, remind me what we’re looking for…
+Angelica, remind me what we’re looking for...
 ALL MEN
 She’s lookin’ for me!
 ANGELICA
@@ -693,6 +711,8 @@ In the greatest
 City in the world
 COMPANY
 In the greatest city in the world!
+
+SONG: FARMER REFUTED
 SEABURY
 Hear ye, hear ye! My name is Samuel Seabury
 And I present “Free Thoughts on the
@@ -710,7 +730,7 @@ Let him be
 SEABURY
 They’re playing a dangerous game
 I pray the king shows you his mercy
-For shame, for shame…
+For shame, for shame...
 HAMILTON
 Yo!
 He’d have you all unravel at the
@@ -767,6 +787,8 @@ Silence! A message from the King!
 A message from the King!
 FULL COMPANY
 A message from the King!
+
+SONG: YOU'LL BE BACK
 Verse1: KING GEORGE
 You say
 The price of my love’s not a price that you’re willing to pay
@@ -788,15 +810,15 @@ Chorus: KING GEORGE
 Da da da dat da dat da da da da ya da
 Da da dat dat da ya da!
 Da da da dat da dat da da da da ya da
-Da da dat dat da…
+Da da dat dat da...
 Verse2: KING GEORGE
 You say our love is draining and you can’t go on
-You’ll be the one complaining when I am gone…
+You’ll be the one complaining when I am gone...
 And no, don’t change the subject
 Cuz you’re my favorite subject
 My sweet, submissive subject
 My loyal, royal subject
-Forever and ever and ever and ever and ever…
+Forever and ever and ever and ever and ever...
 Verse3: KING GEORGE
 You’ll be back like before
 I will fight the fight and win the war
@@ -817,6 +839,8 @@ Da da da dat da dat da da da da ya da
 Da da dat dat da ya da!
 Da da da dat da dat da da da da ya da da da da
 Dat dat da ya da!
+
+SONG: RIGHT HAND MAN
 COMPANY
 British Admiral Howe’s got troops on the water
 Thirty-two thousand troops in New York harbor
@@ -891,7 +915,7 @@ Lining up, to put me up on a pedestal
 Writin’ letters to relatives
 Embellishin’ my elegance and eloquence
 But the elephant is in the room
-The truth is in ya face when ya hear the British cannons go…
+The truth is in ya face when ya hear the British cannons go...
 ENSEMBLE
 Boom!
 WASHINGTON
@@ -929,19 +953,19 @@ MULLIGAN
 Shh-boom!	COMPANY
 Boom!
 WASHINGTON
-Goes the cannon, watch the blood and the shit spray and…
+Goes the cannon, watch the blood and the shit spray and...
 COMPANY
 Boom!
 WASHINGTON
-Goes the cannon, we’re abandonin’ Kips Bay and…
+Goes the cannon, we’re abandonin’ Kips Bay and...
 COMPANY
 Boom!
 WASHINGTON
-There’s another ship and…
+There’s another ship and...
 COMPANY
 Boom!
 WASHINGTON
-We just lost the southern tip and…
+We just lost the southern tip and...
 COMPANY
 Boom!
 WASHINGTON
@@ -954,7 +978,7 @@ I scream in the face of this mass mutiny:
 Are these the men with which I am to defend America?
 We ride at midnight, Manhattan in the distance
 I cannot be everywhere at once, people
-I’m in dire need of assistance…
+I’m in dire need of assistance...
 BURR
 Your excellency, sir!
 WASHINGTON
@@ -1011,7 +1035,7 @@ Sir!
 WASHINGTON
 Don’t get me wrong, you’re a young man of great renown
 I know you stole British cannons when we were still downtown
-Nathaniel Green and Henry Knox wanted to hire you…
+Nathaniel Green and Henry Knox wanted to hire you...
 HAMILTON
 To be their Secretary? I don’t think so
 WASHINGTON
@@ -1074,10 +1098,10 @@ SCHUYLER SISTERS
 Rise up!
 SCHUYLER SISTERS AND WOMEN
 Rise up!	ELIZA/ANGELICA/PEGGY
-Whoa, whoa, whoa…
-Whoa, whoa, whoa…
+Whoa, whoa, whoa...
+Whoa, whoa, whoa...
 ELIZA/ANGELICA/PEGGY AND WOMEN
-Whoa, whoa, whoa…
+Whoa, whoa, whoa...
 LAURENS/
 LAFAYETTE/
 MULLIGAN
@@ -1098,7 +1122,9 @@ WASHINGTON
 And his right hand man!
 FULL COMPANY
 Boom!
-Burr
+
+SONG: A WINTER'S BALL
+BURR
 How does the bastard, orphan, son of a whore
 Go on and on
 Grow into more of a phenomenon?
@@ -1109,35 +1135,37 @@ But Hamilton still wants to fight, not write
 Now Hamilton’s skill with a quill is undeniable
 But what do we have in common? We’re
 Reliable with the
-All Men
+ALL MEN
 Ladies!
-Burr
+BURR
 There are so many to deflower!
-All Men
+ALL MEN
 Ladies!
-Burr
+BURR
 Looks! Proximity to power
-All Men
+ALL MEN
 Ladies!
-Burr
+BURR
 They delighted and distracted him
 Martha Washington named her feral tomcat after him!
-Hamilton
+HAMILTON
 That’s true!
-Full Company
+FULL COMPANY
 1780
-Burr
+BURR
 A winter’s ball
 And the Schuyler sisters are the envy of all
 Yo, if you can marry a sister, you’re rich, son
-Hamilton
+HAMILTON
 Is it a question of if, Burr, or which one?
-Hamilton/Burr/Laurens
+HAMILTON/BURR/LAURENS
 Hey
 Hey
 Hey hey
 HAMILTON/BURR/LAURENS/ALL WOMEN (EXCEPT ELIZA)
 Hey hey hey hey
+
+SONG: HELPLESS
 ELIZA
 Ohh, I do I do I do I
 Dooo! Hey!
@@ -1281,9 +1309,9 @@ I’ve been livin’ without a family since I was a child
 My father left, my mother died, I grew up buckwild
 But I’ll never forget my mother’s face, that was real
 And long as I’m alive, Eliza, swear to God
-You’ll never feel so…
+You’ll never feel so...
 HAMILTON
-Eliza…
+Eliza...
 I’ve never felt so—
 My life is gon’ be fine cuz Eliza’s in it.
 ELIZA
@@ -1294,7 +1322,7 @@ I’m down for the count
 I’m—
 I look into your eyes, and the sky’s the limit
 I’m
-…drownin’ in ‘em.	ALL WOMEN
+...drownin’ in ‘em.	ALL WOMEN
 Helpless!
 Helpless!
 Helpless!
@@ -1307,11 +1335,13 @@ Down for the count
 And I’m drownin’ in ‘em.
 Wedding march plays
 ALL WOMEN
-In New York, you can be a new man…
-In New York, you can be a new man…
-In New York, you can be a new man…
+In New York, you can be a new man...
+In New York, you can be a new man...
+In New York, you can be a new man...
 ELIZA
 Helpless
+
+SONG: SATISFIED
 LAURENS
 Alright, alright. That’s what I’m talkin’ about!
 Now everyone give it up for the maid of honor
@@ -1323,7 +1353,7 @@ From your sister
 Who is always by your side
 To your union
 And the hope that you provide
-May you always…
+May you always...
 Be satisfied
 ALL MEN
 To the groom!
@@ -1368,7 +1398,7 @@ Intelligent eyes in a hunger-pang frame
 And when you said “Hi,” I forgot my dang name
 Set my heart aflame, ev’ry part aflame
 FULL COMPANY
-This is not a game…
+This is not a game...
 HAMILTON
 You strike me as a woman who has never been satisfied
 ANGELICA
@@ -1387,7 +1417,7 @@ ANGELICA
 Where’s your fam’ly from?
 HAMILTON
 Unimportant. There’s a million things I haven’t done but
-Just you wait, just you wait…
+Just you wait, just you wait...
 ANGELICA
 So so so—
 So this is what it feels like to match wits
@@ -1405,21 +1435,21 @@ He’s penniless, he’s flying by the seat of his pants
 Handsome, boy, does he know it!
 Peach fuzz, and he can’t even grow it!
 I wanna take him far away from this place
-Then I turn and see my sister’s face and she is…
+Then I turn and see my sister’s face and she is...
 ELIZA
-Helpless…
+Helpless...
 ANGELICA
-And I know she is…
+And I know she is...
 ELIZA
-Helpless…
+Helpless...
 ANGELICA
-And her eyes are just…
+And her eyes are just...
 ELIZA
-Helpless…
+Helpless...
 ANGELICA
 And I realize
 ANGELICA AND COMPANY
-Three fundamental truths at the exact same time…
+Three fundamental truths at the exact same time...
 HAMILTON
 Where are you taking me?
 ANGELICA
@@ -1476,7 +1506,7 @@ As I romanticize what might
 Have been if I hadn’t sized him
 Up so quickly
 At least my dear Eliza’s his wife;
-At least I keep his eyes in my life…
+At least I keep his eyes in my life...
 ANGELICA
 To the groom!
 To the bride!
@@ -1536,6 +1566,8 @@ Be satisfied.
 ANGELICA
 He will never be satisfied
 I will never be satisfied
+
+SONG: THE STORY OF TONIGHT (REPRISE)
 LAURENS
 I may not live to see our glory!
 MULLIGAN/LAFAYETTE
@@ -1617,7 +1649,7 @@ No!
 HAMILTON
 Leave us alone
 MULLIGAN
-Man…
+Man...
 HAMILTON
 It’s alright, Burr. I wish you’d brought this girl with you tonight, Burr
 BURR
@@ -1631,7 +1663,7 @@ I see
 BURR
 She’s married to a British officer
 HAMILTON
-Oh shit…
+Oh shit...
 BURR
 Congrats again, Alexander. Smile more
 I’ll see you on the other side of the war
@@ -1642,6 +1674,8 @@ BURR
 I’ll see you on the other side of the war
 HAMILTON
 I’ll see you on the other side of the war
+
+SONG: WAIT FOR IT
 BURR
 Theodosia writes me a letter every day
 I'm keeping the bed warm while her husband is away
@@ -1756,7 +1790,7 @@ And if there’s a reason
 He seems to thrive when so few survive, then Goddamnit—
 BURR
 I'm willing to wait for it
-I'm willing to wait for it…
+I'm willing to wait for it...
 Life doesn't discriminate
 Between the sinners and the saints
 It takes and it takes and it takes
@@ -1768,7 +1802,7 @@ Then I'm willin' to—
  	COMPANY
 I'm willing to wait for it
 Wait for it
-Wait for…
+Wait for...
 I'm willing to—
 Life doesn't discriminate
 Between the sinners and the saints
@@ -1780,24 +1814,26 @@ And if there's a reason I'm still alive
 When so many have died
 Then I'm willin' to—
 BURR
-Wait for it…
-Wait for it…
+Wait for it...
+Wait for it...
 WOMEN
-Wait for it…
-Wait for it…
-Wait for it…
-Wait for it…
-Wait for it…
+Wait for it...
+Wait for it...
+Wait for it...
+Wait for it...
+Wait for it...
 MEN
-Wait for it…
-Wait for it…
-Wait for it…
-Wait for it…
-Wait…
+Wait for it...
+Wait for it...
+Wait for it...
+Wait for it...
+Wait...
+
+SONG: STAY ALIVE
 ELIZA
-Stay alive…
+Stay alive...
 ELIZA/ANGELICA/ENSEMBLE WOMEN
-Stay alive…
+Stay alive...
 HAMILTON
 I have never seen the General so despondent
 I have taken over writing all his correspondence
@@ -1862,7 +1898,7 @@ Charles Lee
 Makes him second-in-command:
 LEE
 Charles Lee.	ELIZA/ANGELICA
-Stay alive…
+Stay alive...
 LEE
 I’m a General. Whee!!!!
 HAMILTON
@@ -1920,10 +1956,12 @@ Then I’ll do it
 Alexander, you’re the closest friend I’ve got
 HAMILTON
 Laurens, do not throw away your shot
+
+SONG: TEN DUEL COMMANDMENTS
 MEN
 One, two, three, four
 FULL COMPANY
-Five, six, seven, eight, nine…
+Five, six, seven, eight, nine...
 BURR/HAMILTON/LAURENS/LEE
 It’s the Ten Duel Commandments
 FULL COMPANY
@@ -1943,7 +1981,7 @@ Number three!
 LEE
 Have your seconds meet face to face
 BURR
-Negotiate a peace…
+Negotiate a peace...
 HAMILTON
 Or negotiate a time and place
 BURR
@@ -1977,7 +2015,7 @@ COMPANY
 Number eight!
 LAURENS/LEE/HAMILTON/BURR
 Your last chance to negotiate
-Send in your seconds, see if they can set the record straight…
+Send in your seconds, see if they can set the record straight...
 BURR
 Alexander
 HAMILTON
@@ -2009,6 +2047,8 @@ COMPANY
 Ten paces!
 HAMILTON/BURR
 Fire!
+
+SONG: MEET ME INSIDE
 HAMILTON
 Lee, do you yield?
 BURR
@@ -2093,10 +2133,12 @@ HAMILTON
 Sir—
 WASHINGTON
 Go home
+
+SONG: THAT WOULD BE ENOUGH
 ELIZA
 Look around, look around at how lucky we are
 To be alive right now
-Look around, look around…
+Look around, look around...
 HAMILTON
 How long have you known?
 ELIZA
@@ -2127,7 +2169,7 @@ Will you relish being a poor man’s wife
 Unable to provide for your life?
 ELIZA
 I relish being your wife
-Look around, look around…
+Look around, look around...
 Look at where you are
 Look at where you started
 The fact that you’re alive is a miracle
@@ -2146,7 +2188,7 @@ That would be enough
 We don’t need a legacy
 We don’t need money
 If I could grant you peace of mind
-If you could let me inside your heart…
+If you could let me inside your heart...
 Oh, let me be a part of the narrative
 In the story they will write someday
 Let this moment be the first chapter:
@@ -2154,6 +2196,8 @@ Where you decide to stay
 And I could be enough
 And we could be enough
 That would be enough
+
+SONG: GUNS AND SHIPS
 BURR
 How does a ragtag volunteer army in need of a shower
 Somehow defeat a global superpower?
@@ -2246,7 +2290,9 @@ Oh, Alexander Hamilton
 I have soldiers that will yield for you
 If we manage to get this right
 They’ll surrender by early light
-The world will never be the same, Alexander…
+The world will never be the same, Alexander...
+
+SONG: HISTORY HAS ITS EYES ON YOU
 WASHINGTON
 I was younger than you are now
 When I was given my first command
@@ -2259,14 +2305,14 @@ WASHINGTON
 Knowing history has its eyes on me
 HAMILTON/WASHINGTON
 History has its eyes on me.	LAURENS/MULLIGAN
-Whoa…
-Whoa…
-Whoa…
+Whoa...
+Whoa...
+Whoa...
 Yeah
 COMPANY
-Whoa…
-Whoa…
-Whoa…
+Whoa...
+Whoa...
+Whoa...
 Yeah
 WASHINGTON
 Let me tell you what I wish I’d known
@@ -2282,11 +2328,13 @@ WASHINGTON/HAMILTON AND MEN
 History has its
 Eyes on you.
 ENSEMBLE
-Whoa…
-Whoa…
-Whoa…
+Whoa...
+Whoa...
+Whoa...
 FULL COMPANY
 History has its eyes on you
+
+SONG: YORKTOWN
 COMPANY
 The battle of Yorktown. 1781
 LAFAYETTE
@@ -2323,7 +2371,7 @@ Scrappy and hungry
 And I’m not throwin’ away my shot!
 I am not throwin’ away my shot!
 HAMILTON
-‘Til the world turns upside down…
+‘Til the world turns upside down...
 ENSEMBLE
 ‘Til the world turns upside down!
 HAMILTON
@@ -2332,7 +2380,7 @@ This is where it gets me: on my feet
 The enemy ahead of me
 If this is the end of me, at least I have a friend with me
 Weapon in my hand, a command, and my men with me
-Then I remember my Eliza’s expecting me…
+Then I remember my Eliza’s expecting me...
 Not only that, my Eliza’s expecting
 We gotta go, gotta get the job done
 Gotta start a new nation, gotta meet my son!
@@ -2403,7 +2451,7 @@ They stagger home single file
 Tens of thousands of people flood the streets
 There are screams and church bells ringing
 And as our fallen foes retreat
-I hear the drinking song they’re singing…
+I hear the drinking song they’re singing...
 ALL MEN
 The world turned upside down
 FULL COMPANY
@@ -2431,6 +2479,8 @@ MULLIGAN/LAFAYETTE/LAURENS/HAMILTON/WASHINGTON
 We won!
 COMPANY
 The world turned upside down!
+
+SONG: WHAT COMES NEXT?
 KING GEORGE
 They say
 The price of my war’s not a price that they’re willing to pay
@@ -2457,8 +2507,10 @@ Come crawling back to me
 Da da da dat da dat da da da
 Da ya da
 Da da dat
-Da da ya da…
-You’re on your own…
+Da da ya da...
+You’re on your own...
+
+SONG: DEAR THEODOSIA
 BURR
 Dear Theodosia, what to say to you?
 You have my eyes. You have your mother’s name
@@ -2471,7 +2523,7 @@ You will come of age with our young nation
 We’ll bleed and fight for you, we’ll make it right for you
 If we lay a strong enough foundation
 We’ll pass it on to you, we’ll give the world to you
-And you’ll blow us all away…
+And you’ll blow us all away...
 Someday, someday
 Yeah, you’ll blow us all away
 Someday, someday
@@ -2497,15 +2549,17 @@ I’ll do whatever it takes
 BURR
 I’ll make a million mistakes
 BURR/HAMILTON
-I’ll make the world safe and sound for you…
-…will come of age with our young nation
+I’ll make the world safe and sound for you...
+...will come of age with our young nation
 We’ll bleed and fight for you, we’ll make it right for you
 If we lay a strong enough foundation
 We’ll pass it on to you, we’ll give the world to you
-And you’ll blow us all away…
+And you’ll blow us all away...
 Someday, someday
 Yeah, you’ll blow us all away
 Someday, someday
+
+SONG: NON-STOP
 BURR
 After the war I went back to New York
 HAMILTON
@@ -2579,7 +2633,7 @@ I was chosen for the Constitutional Convention!
 BURR
 There as a New York junior delegate:
 HAMILTON
-Now what I’m going to say may sound indelicate…
+Now what I’m going to say may sound indelicate...
 BURR
 Goes and proposes his own form of government!
 His own plan for a new form of government!
@@ -2590,7 +2644,7 @@ What?
 BURR
 Talks for six hours! The convention is listless!
 ENSEMBLE MAN
-Bright young man…
+Bright young man...
 ANOTHER ENSEMBLE MAN
 Yo, who the f is this?
 BURR
@@ -2703,7 +2757,7 @@ Afterbirth of a nation
 Watching the tension grow
 ENSEMBLE
 Wait for it, wait for
-It, wait…
+It, wait...
 Which way the wind
 Will blow
 I’m taking my time
@@ -2765,7 +2819,7 @@ I know it’s a lot to ask
 HAMILTON
 Treasury or State?
 WASHINGTON
-To leave behind the world you know…
+To leave behind the world you know...
 HAMILTON
 Sir, do you want me to run the Treasury or State department?
 WASHINGTON
@@ -2773,7 +2827,7 @@ Treasury
 HAMILTON
 Let’s go
 ELIZA
-Alexander…
+Alexander...
 HAMILTON
 I have to leave
 ELIZA
@@ -2781,7 +2835,7 @@ Alexander—
 HAMILTON
 Look around, look around at how lucky we are to be alive right now
 ELIZA
-Helpless…
+Helpless...
 HAMILTON
 They are asking me to lead
 ELIZA
@@ -2790,30 +2844,30 @@ ANGELICA
 He will never be satisfied
 He will never be satisfied
 Satisfied
-Satisfied…
+Satisfied...
 He will never be satisfied
-Satisfied…
-Satisfied…
+Satisfied...
+Satisfied...
 Why do you fight like
 ELIZA
 What would be enough
 To
 Be satisfied
 Satisfied
-Satisfied…
+Satisfied...
 Look around
 Look around!
 Isn’t this enough?
 What would be enough?
 Why do you fight like
 WASH
-History has its eyes…
-On…
+History has its eyes...
+On...
 You!
 WASH/MULL/LAUR/LAF
-History has its eyes…
-On…
-You…
+History has its eyes...
+On...
+You...
 BURR
 Why do you assume you’re the smartest in the room? Why do you assume you’re the smartest in the room? Why do you assume you’re the smartest in the room?
 Soon that attitude’s gonna be your doom!
@@ -2832,9 +2886,11 @@ I am not throwin’ away my shot!
 I am
 Alexander Hamilton!
 I am not throwin’ away my shot!
+
+SONG: WHAT'D I MISS
 COMPANY
-Seventeen. Se- se- seventeen…
-Se- se- seventeen…
+Seventeen. Se- se- seventeen...
+Se- se- seventeen...
 BURR
 1789
 How does the bastard orphan
@@ -2871,16 +2927,16 @@ JEFFERSON
 I helped Lafayette draft a declaration
 Then I said, ‘I gotta go
 I gotta be in Monticello.’
-Now the work at home begins…
+Now the work at home begins...
 ENSEMBLE
 Aaa-ooo!
 JEFFERSON
 So what’d I miss?
 What’d I miss?
 Virginia, my home sweet home, I wanna give you a kiss
-I’ve been in Paris meeting lots of different ladies…
-I guess I basic’lly missed the late eighties…
-I traveled the wide, wide world and came back to this…
+I’ve been in Paris meeting lots of different ladies...
+I guess I basic’lly missed the late eighties...
+I traveled the wide, wide world and came back to this...
 ENSEMBLE
 Aaa-ooo!
 JEFFERSON
@@ -2889,7 +2945,7 @@ Haven’t even put my bags down yet
 Sally be a lamb, darlin’, won’tcha open it?
 It says the President’s assembling a cabinet
 And that I am to be the Secretary of State, great!
-And that I’m already Senate-approved…
+And that I’m already Senate-approved...
 I just got home and now I’m headed up to New York
 ENSEMBLE
 Headin’ to New York!
@@ -2924,7 +2980,7 @@ I’ve been fighting for the South alone
 Where have you been?
 ENSEMBLE
 Aaa-ooo!	JEFFERSON
-Uh…France.
+Uh...France.
 MADISON
 We have to win
 JEFFERSON
@@ -2934,7 +2990,7 @@ Headfirst into a political abyss!
 I have my first cabinet meeting today
 I guess I better think of something to say
 I’m already on my way
-Let’s get to the bottom of this…
+Let’s get to the bottom of this...
 ENSEMBLE
 Wha? Wha? What’d I miss?
 I’ve come home to this?
@@ -2954,6 +3010,8 @@ Mr. Jefferson, welcome home
 Sir, you’ve been off in Paris for so long!
 JEFFERSON
 So what did I miss?
+
+SONG: CABINET BATTLE #1
 WASHINGTON
 Ladies and gentlemen, you coulda been anywhere in the world tonight, but you’re here with us in New York City. Are you ready for a cabinet meeting???
 The issue on the table: Secretary Hamilton’s plan to assume state debt and establish a national bank. Secretary Jefferson, you have the floor, sir
@@ -3032,7 +3090,7 @@ You’re gonna need congressional approval and you don’t have the votes
 JEFFERSON
 Such a blunder sometimes it makes me wonder why I even bring the thunder
 MADISON
-Why he even brings the thunder…
+Why he even brings the thunder...
 WASHINGTON
 You wanna pull yourself together?
 HAMILTON
@@ -3067,6 +3125,8 @@ HAMILTON
 Sir—
 WASHINGTON
 Figure it out, Alexander. That’s an order from your commander
+
+SONG: TAKE A BREAK
 ELIZA
 Un deux trois quatre
 Cinq six sept huit neuf
@@ -3098,7 +3158,7 @@ And there you are, an ocean away
 Do you have to live an ocean away?
 Thoughts of you subside
 Then I get another letter
-I cannot put the notion away…
+I cannot put the notion away...
 ELIZA
 Take a break
 HAMILTON
@@ -3147,7 +3207,7 @@ HAMILTON
 Eliza, I’ve got so much on my plate
 ELIZA
 We can all go stay with my father
-There’s a lake I know…
+There’s a lake I know...
 HAMILTON
 I know
 ELIZA
@@ -3155,7 +3215,7 @@ In a nearby park
 HAMILTON
 I’d love to go
 ELIZA
-You and I can go when the night gets dark…
+You and I can go when the night gets dark...
 HAMILTON
 I will try to get away
 ANGELICA
@@ -3188,7 +3248,7 @@ I know your work’s important
 But I’m crossing the ocean and I just can’t wait
 HAMILTON AND ANGELICA
 You won’t be an ocean away
-You will only be a moment away…
+You will only be a moment away...
 ELIZA
 Alexander, come downstairs. Angelica’s arriving today!
 ELIZA
@@ -3208,7 +3268,7 @@ Angelica, tell this man John Adams spends the summer with his family
 HAMILTON
 Angelica, tell my wife John Adams doesn’t have a real job anyway
 ANGELICA
-…you’re not joining us? Wait
+...you’re not joining us? Wait
 HAMILTON
 I’m afraid I cannot join you upstate
 ANGELICA
@@ -3256,6 +3316,8 @@ Take a break.
 HAMILTON
 I have to get my plan through Congress
 I can’t stop until I get this plan through Congress
+
+SONG: SAY NO TO THIS
 BURR
 There’s nothing like summer in the city
 Someone under stress meets someone looking pretty
@@ -3272,12 +3334,12 @@ That’s when Miss Maria Reynolds walked into my life, she said:
 MARIA
 I know you are a man of honor
 I’m so sorry to bother you at home
-But I don’t know where to go, and I came here all alone…
+But I don’t know where to go, and I came here all alone...
 HAMILTON
 She said:
 MARIA
 My husband’s doin’ me wrong
-Beatin’ me, cheatin’ me, mistreatin’ me…
+Beatin’ me, cheatin’ me, mistreatin’ me...
 Suddenly he’s up and gone
 I don’t have the means to go on
 HAMILTON
@@ -3296,9 +3358,9 @@ Let her legs spread and said:
 MARIA
 Stay?
 HAMILTON
-Hey…
+Hey...
 MARIA
-Hey…
+Hey...
 HAMILTON
 That’s when I began to pray:
 Lord, show me how to
@@ -3308,7 +3370,7 @@ Say no to this
 But my God, she looks so helpless
 And her body’s saying, “hell, yes”
 MARIA
-Whoa…
+Whoa...
 HAMILTON
 Nooo, show me how to
 HAMILTON/ENSEMBLE
@@ -3322,7 +3384,7 @@ In my mind, I’m tryin’ to go
 ENSEMBLE
 Go! Go! Go!
 HAMILTON
-Then her mouth is on mine, and I don’t say…
+Then her mouth is on mine, and I don’t say...
 ENSEMBLE
 No! No!
 Say no to this!
@@ -3370,7 +3432,7 @@ Goddamnit, get up!
 MARIA
 I didn’t know any better
 HAMILTON
-I am ruined…
+I am ruined...
 MARIA
 Please don’t leave me with him helpless
 Just give him what he wants and you can have me
@@ -3392,7 +3454,7 @@ Yes
 Yes
 Yes
 Yes.	HAMILTON
-I don’t…
+I don’t...
 Lord, show me how to
 Say no to this
 I don’t know how to
@@ -3404,7 +3466,7 @@ Say no to this
 How can I
 Say no to this?
 There is nowhere I can go
-When her body’s on mine I do not say…
+When her body’s on mine I do not say...
 MARIA
 Yes!
 Yes!
@@ -3426,17 +3488,19 @@ Say no to this!
 No!
 Say no to this!
 HAMILTON
-Say no to this…
+Say no to this...
 I don’t say no to this
 There is nowhere I can go.
 MARIA
 Don’t say no to this
 ENSEMBLE
-Go go go…
+Go go go...
 JAMES
 So?
 HAMILTON
 Nobody needs to know
+
+SONG: THE ROOM WHERE IT HAPPENS
 BURR
 Ah, Mister Secretary
 HAMILTON
@@ -3647,7 +3711,7 @@ And I wanted what I got
 When you got skin in the game, you stay in the game
 But you don’t get a win unless you play in the game
 Oh, you get love for it. You get hate for it
-You get nothing if you…
+You get nothing if you...
 HAMILTON AND COMPANY
 Wait for it, wait for it, wait!
 HAMILTON
@@ -3680,7 +3744,7 @@ I
 Wanna be
 In the room where it happens
 I
-I wanna be in the room…
+I wanna be in the room...
 Oh
 Oh
 I wanna be
@@ -3721,12 +3785,12 @@ BURR AND COMPANY
 Dark as a tomb where it happens
 BURR
 I’ve got to be in
-The room…
-I’ve got to be…
-I’ve got to be…
+The room...
+I’ve got to be...
+I’ve got to be...
 Oh, I’ve got to be in
-The room where it happens…
-I’ve got to be, I’ve gotta be, I’ve gotta be…
+The room where it happens...
+I’ve got to be, I’ve gotta be, I’ve gotta be...
 In the room!
 Click-boom!
 COMPANY
@@ -3738,6 +3802,8 @@ The room where it happens
 I wanna be in the room
 Where it happens!
 Click-boom!
+
+SONG: SCHUYLER DEFEATED
 PHILIP
 Look!
 Grandpa’s in the paper!
@@ -3790,6 +3856,8 @@ BURR
 I changed parties to seize the opportunity I saw
 I swear your pride will be the death of us all
 Beware, it goeth before the fall
+
+SONG: CABINET BATTLE #2
 WASHINGTON
 The issue on the table: France is on the verge of war with England, and do we provide aid and our troops to our French allies or do we stay out of it? Remember, my decision on this matter is not subject to congressional approval. The only person you have to convince is me. Secretary Jefferson, you have the floor, sir
 JEFFERSON
@@ -3826,7 +3894,7 @@ A game of chess, where France is Queen and Kingless
 We signed a treaty with a King whose head is now in a basket
 Would you like to take it out and ask it?
 “Should we honor our treaty, King Louis’ head?”
-“Uh… do whatever you want, I’m super dead.”
+“Uh... do whatever you want, I’m super dead.”
 WASHINGTON
 Enough. Hamilton is right
 JEFFERSON
@@ -3878,6 +3946,8 @@ WASHINGTON
 Hamilton!
 JEFFERSON
 Daddy’s calling!
+
+SONG: WASHINGTON ON YOUR SIDE
 BURR
 It must be nice, it must be nice to have
 Washington on your side
@@ -3977,6 +4047,8 @@ We won’t be invisible. We won’t be denied
 Still
 It must be nice, it must be nice to have
 Washington on your side
+
+SONG: ONE LAST TIME
 HAMILTON
 Mr. President, you asked to see me?
 WASHINGTON
@@ -4115,6 +4187,8 @@ Teach ‘em how!
 Say goodbye!
 Say goodbye!
 One last time!
+
+SONG: I KNOW HIM
 KING GEORGE
 They say
 George Washington’s yielding his power and stepping away
@@ -4123,7 +4197,7 @@ I wasn’t aware that was something a person could do
 I’m perplexed
 Are they gonna keep on replacing whoever’s in charge?
 If so, who’s next?
-There’s nobody else in their country who looms quite as large…
+There’s nobody else in their country who looms quite as large...
 A sentinel whispers in King George’s ear
 John Adams?!
 I know him
@@ -4143,6 +4217,8 @@ Da da da dat da dat da da da da ya da
 Da da da dat dat da ya daaaaa!
 “President John Adams”
 Good Luck
+
+SONG: THE ADAMS ADMINISTRATION
 BURR
 How does Hamilton the short-tempered
 Protean creator of the Coast Guard
@@ -4171,15 +4247,17 @@ MADISON
 This is great! He’s out of power. He holds no office. And he just destroyed President John Adams, the only other significant member of his party
 JEFFERSON
 Hamilton’s a host unto himself. As long as he can hold a pen, he’s a threat. Let’s let him know what we know
+
+SONG: WE KNOW
 HAMILTON
 Mr. Vice President
 Mr. Madison
 Senator Burr
 What is this?
 JEFFERSON
-We have the check stubs. From separate accounts…
+We have the check stubs. From separate accounts...
 MADISON
-Almost a thousand dollars, paid in different amounts…
+Almost a thousand dollars, paid in different amounts...
 BURR
 To a Mr. James Reynolds way back in
 Seventeen ninety-one
@@ -4257,6 +4335,8 @@ The next time we go toe to toe?
 BURR
 Alexander, rumors only grow. And we both
 Know what we know
+
+SONG: HURRICANE
 HAMILTON
 In the eye of a hurricane
 There is quiet
@@ -4274,7 +4354,7 @@ They passed a plate around
 Total strangers
 Moved to kindness by my story
 Raised enough for me to book passage on a
-Ship that was New York bound…
+Ship that was New York bound...
 I wrote my way out of hell
 I wrote my way to revolution
 I was louder than the crack in the bell
@@ -4293,14 +4373,14 @@ She was holding me
 We were sick and she was holding me
 I couldn’t seem to die
 BURR
-Wait for it, wait for it, wait for it…
+Wait for it, wait for it, wait for it...
 BURR AND ENSEMBLE
-Wait for it, wait for it, wait for it…
-Wait for it, wait for it, wait for it, wait…
+Wait for it, wait for it, wait for it...
+Wait for it, wait for it, wait for it, wait...
 HAMILTON
-I’ll write my way out…
-Write ev’rything down, far as I can see…
-I’ll write my way out…
+I’ll write my way out...
+Write ev’rything down, far as I can see...
+I’ll write my way out...
 Overwhelm them with honesty.
 WASHINTON/
 ELIZA/ANGELICA/
@@ -4308,9 +4388,11 @@ MARIA
 History has its eyes on you
 HAMILTON
 This is the eye of the hurricane, this is the only
-Way I can protect my legacy…
+Way I can protect my legacy...
 COMPANY (EXCEPT HAMILTON)
-Wait for it, wait for it, wait for it, wait…
+Wait for it, wait for it, wait for it, wait...
+
+SONG: THE REYNOLDS PAMPHLET
 HAMILTON
 The Reynolds Pamphlet
 FULL COMPANY
@@ -4352,7 +4434,7 @@ HAMILTON/JEFFERSON
 “Mrs. Hamilton with our children being absent
 On a visit to her father.”
 MADISON/BURR
-No…
+No...
 COMPANY
 Boooo!
 MADISON/BURR
@@ -4435,6 +4517,8 @@ Have you read this?
 You ever see somebody ruin their own life?
 COMPANY (EXCEPT HAMILTON/ELIZA)
 His poor wife
+
+SONG: BURN
 ELIZA
 I saved every letter you wrote me
 From the moment I read them
@@ -4467,11 +4551,11 @@ When she read what you’d done?
 She said
 “You have married an Icarus
 He has flown too close to the sun.”
-You and your words, obsessed with your legacy…
+You and your words, obsessed with your legacy...
 Your sentences border on senseless
 And you are paranoid in every paragraph
 How they perceive you
-You, you, you…
+You, you, you...
 I’m erasing myself from the narrative
 Let future historians wonder how Eliza
 Reacted when you broke her heart
@@ -4490,6 +4574,8 @@ You sleep in your office instead
 With only the memories
 Of when you were mine
 I hope that you burn
+
+SONG: BLOW US ALL AWAY
 PHILIP
 Meet the latest graduate of King’s College!
 I prob’ly shouldn’t brag, but, dag, I amaze and astonish!
@@ -4566,7 +4652,7 @@ Where is this happening?
 PHILIP
 Across the river, in Jersey
 HAMILTON/PHILIP
-Everything is legal in New Jersey…
+Everything is legal in New Jersey...
 HAMILTON
 Alright. So this is what you’re gonna do:
 Stand there like a man until Eacker is in front of you
@@ -4612,10 +4698,12 @@ MALE ENSEMBLE
 One two three four
 FULL ENSEMBLE
 Five six seven—
+
+SONG: STAY ALIVE (REPRISE)
 ENSEMBLE WOMEN
-Stay alive…
-Stay alive…
-Stay alive…
+Stay alive...
+Stay alive...
+Stay alive...
 HAMILTON
 Where’s my son?
 Is he alive?
@@ -4646,21 +4734,21 @@ I know, I know
 I know, I know
 I know
 Save your strength and
-Stay alive…
+Stay alive...
 PHILIP
 High
 Even before we got to ten—
 I was aiming for the sky
 I was aiming for the sky
 ENSEMBLE MEN
-Stay alive…
+Stay alive...
 ELIZA
 No!
 HAMILTON
 Eliza
 ELIZA
 Is he breathing? Is he going to survive this?	ENSEMBLE MEN
-Stay alive…
+Stay alive...
 ELIZA
 Who did this, Alexander, did you know?
 PHILIP
@@ -4691,12 +4779,14 @@ Un deux trois quatre
 Cinq six sept
 Huit neuf
 Sept huit neuf—
-Sept huit…
+Sept huit...
 PHILIP
 Un deux trois quatre
 Cinq six sept huit neuf
 PHILIP
-Un deux trois…
+Un deux trois...
+
+SONG: IT'S QUIET UPTOWN
 ANGELICA
 There are moments that the words don’t reach
 There is suffering too terrible to name
@@ -4777,6 +4867,8 @@ Forgiveness. Can you imagine?
 If you see him in the street, walking by her
 Side, talking by her side, have pity
 They are going through the unimaginable
+
+SONG: THE ELECTION OF 1800
 FULL COMPANY
 The election of 1800
 JEFFERSON
@@ -4852,7 +4944,7 @@ I like that Aaron Burr!
 A WOMAN
 I can’t believe we’re here with him!
 A MAN
-He seems approachable…?
+He seems approachable...?
 ANOTHER MALE VOTER
 Like you could grab a beer with him!
 ENSEMBLE
@@ -5034,6 +5126,9 @@ BURR AND COMPANY
 The room where it happens
 BURR
 For the last time
+
+SONG: YOUR OBEDIENT SERVANT
+BURR
 Dear Alexander:
 I am slow to anger
 But I toe the line
@@ -5091,6 +5186,8 @@ HAMILTON
 A dot Ham
 BURR
 A dot Burr
+
+SONG: BEST OF WIVES AND BEST OF WOMEN
 ELIZA
 Alexander, come back to sleep
 HAMILTON
@@ -5115,6 +5212,8 @@ ELIZA
 Well, I’m going back to sleep
 HAMILTON
 Hey. Best of wives and best of women
+
+SONG: THE WORLD WAS WIDE ENOUGH
 MALE COMPANY
 One two three four
 FULL COMPANY (EXCEPT HAMILTON AND BURR)
@@ -5216,7 +5315,7 @@ Rise up, rise up, rise up
 Eliza
 My love, take your time
 I’ll see you on the other side
-Raise a glass to freedom…
+Raise a glass to freedom...
 BURR AND COMPANY
 He aims his pistol at the sky—
 BURR
@@ -5260,11 +5359,13 @@ He may have been the first one to die
 But I’m the one who paid for it
 I survived, but I paid for it
 Now I’m the villain in your history
-I was too young and blind to see…
+I was too young and blind to see...
 I should’ve known
 I should’ve known
 The world was wide enough for both Hamilton and me
 The world was wide enough for both Hamilton and me
+
+SONG: WHO LIVES, WHO DIES, WHO TELLS YOUR STORY
 WASHINGTON
 Let me tell you what I wish I’d known
 When I was young and dreamed of glory
@@ -5402,8 +5503,8 @@ Who lives, who dies, who tells your story?
 Will they tell your story?
 Who lives, who dies—
 COMPANY
-Time…
-Time…
-Time…
+Time...
+Time...
+Time...
 FULL COMPANY
 Who tells your story?
