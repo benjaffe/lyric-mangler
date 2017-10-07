@@ -15,8 +15,8 @@ const _mostCommonWords = commonWordList
 
 const lyrics = fs.readFileSync('./data/lyrics-with-speaker.txt', 'utf-8');
 
+let wordsToProcess = 0;
 const whereToStart = 0;
-const wordsToProcess = 100;
 const SEARCH_RADIUS = 100;
 const MIN_REPLACEMENT_CANDIDATE_LENGTH = 4;
 const wordsNotToProcess = commonWordList
@@ -30,6 +30,7 @@ const wordsNotToReplaceWith = commonWordList
   .map(s => s.toLowerCase());
 
 const _wordsTokenized = tokenize.words()(lyrics);
+wordsToProcess = wordsToProcess !== 0 ? wordsToProcess : _wordsTokenized.length;
 const _wordsTokenizedShort = _wordsTokenized.slice(
   whereToStart,
   whereToStart + wordsToProcess
@@ -134,8 +135,7 @@ function _getRhymeCandidates(word) {
 function _getLevenCandidates(word) {
   // prettier-ignore
   const COOL_WORDS = [
-    'fart','lumpy','poop','pee','boop','beep','beeper','penis','chicken',
-    'monkey','shit','sex','crap'
+    'fart','lumpy','poop','pee','boop','beep','beeper','chicken','monkey','crap'
   ];
   const UNCOOL_WORDS = ['donut', 'donate', 'greatness'];
   let totalScore = 1000;
