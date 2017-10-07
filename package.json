@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "download": "cd ./node_modules/rhyme-plus/data/ && sh fetch.sh"
+    "download": "cd ./node_modules/rhyme-plus/data/ && sh fetch.sh",
+    "deploy": "cd ./public && now --public"
   },
   "dependencies": {
     "leven": "^2.1.0",
