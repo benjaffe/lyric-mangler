@@ -79,12 +79,7 @@ function doHam(config) {
       .filter(val => val.length >= MIN_REPLACEMENT_CANDIDATE_LENGTH);
 
     if (_isTitle(val)) {
-      let followsTitleWord = _isTitle(arr[i - 1]);
-      let precedesTitleWord = _isTitle(arr[i + 1]);
-      let prefix = followsTitleWord || i === 0 ? '' : '\n\n';
-      let suffix = precedesTitleWord ? '' : '\n';
-      let newVal = prefix + val + suffix;
-      acc.push({originalVal: val, val: newVal});
+      acc.push({val: val, isTitle: true});
       acc.push(_getInterstitial(token, nextToken, lyrics));
       return acc;
     }
