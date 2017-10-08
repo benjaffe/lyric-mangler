@@ -44,6 +44,8 @@ const _wordsIsolatedSanitizedShort = _wordsIsolatedSanitized.slice(
 const _rand = num => Math.floor(num * Math.random());
 const _randFromArray = arr => arr[_rand(arr.length)];
 
+let cache = {};
+
 let r;
 rhyme(_r => {
   r = _r;
@@ -65,10 +67,13 @@ const _isCommonEnoughWord = w => {
 const _isValidReplacement = w => wordsNotToReplaceWith.indexOf(w) === -1;
 
 function doHam(config) {
+  let startTime = Date.now();
   let swapsCount = 0;
   let randomRhymeCount = 0;
   let randomLevenCount = 0;
+  let cacheHits = 0;
   const result = _wordsIsolatedSanitizedShort.reduce((acc, val, i, arr) => {
+    let originalVal = val;
     let token = _wordsTokenizedShort[i];
     let nextToken = _wordsTokenizedShort[i + 1] || _wordsTokenizedShort[i];
     console.log(`${i}/${wordsToProcess}: ${val} - ${token.value}`);
@@ -81,6 +86,13 @@ function doHam(config) {
     if (_isTitle(val)) {
       acc.push({val: val, isTitle: true});
       acc.push(_getInterstitial(token, nextToken, lyrics));
+      return acc;
+    }
+
+    if (cache[val]) {
+      acc.push(cache[val]);
+      acc.push(_getInterstitial(token, nextToken, lyrics));
+      cacheHits++;
       return acc;
     }
 
@@ -109,6 +121,7 @@ function doHam(config) {
     }
     acc.push(wordObj);
     acc.push(_getInterstitial(token, nextToken, lyrics));
+    cache[originalVal] = wordObj;
     return acc;
   }, []);
 
@@ -118,8 +131,9 @@ function doHam(config) {
   }
 
   fs.writeFileSync('./public/data.json', JSON.stringify(result, null, 2));
+  let duration = (Date.now() - startTime) / 1000;
   console.log(
-    `Processed ${wordsToProcess}, performed ${swapsCount} swaps, and ${randomRhymeCount} random rhyme replacements`
+    `Processed ${wordsToProcess} in ${duration} seconds, hitting the cache ${cacheHits} times, performed ${swapsCount} swaps, and ${randomRhymeCount} random rhyme replacements`
   );
 }
 
