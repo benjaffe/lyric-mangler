@@ -4,6 +4,7 @@ let masterMultiplier = 1;
 let swap = true;
 let sfw = true;
 let favorRhymes = false;
+let banned = ['gmbh'];
 
 let words, swears;
 let wordRequest = new XMLHttpRequest();
@@ -92,9 +93,11 @@ function init() {
 const _randomVal = num => Math.floor(Math.random() * num);
 const _isNotPlural = (str1, str2) => str1 !== str2 + 's' && str2 !== str1 + 's';
 const _isAppropriate = w => (sfw ? swears.indexOf(w) === -1 : w);
+const _isNotBanned = w => banned.indexOf(w) === -1;
 const _randomValueFromArr = (origArr, val) => {
   const arr = origArr
     .filter(_isAppropriate)
+    .filter(_isNotBanned)
     .filter(_isNotPlural.bind(null, val));
   return arr.length > 0 ? arr[_randomVal(arr.length)] : val;
 };
